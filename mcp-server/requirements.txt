@@ -1,0 +1,5 @@
+# MCP Python SDK v1 (FastMCP API).
+# NOTE: `pip install mcp` now resolves to the 2.x line, where FastMCP was
+# renamed (mcp.server.fastmcp no longer exists). This server targets the v1
+# API used by current docs/tutorials, so the major version is pinned.
+mcp>=1.20,<2
