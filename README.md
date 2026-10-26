@@ -28,8 +28,13 @@ zztj-kb/
 ├── docs/
 │   ├── annotation-spec.md    实体标注规范 v1.0（19 类实体符号）
 │   └── methodology.md        流水线方法说明
-└── data/
-    └── sample/               示例事件数据（5 卷）
+├── data/
+│   └── sample/               示例事件数据（5 卷）
+├── kg/
+│   ├── events/               全 294 卷事件数据（27,141 条；含 parts146 补注）
+│   ├── entities/             实体索引
+│   └── relations/            实体关系索引
+└── chapter_md/               逐卷标注后的 Markdown 全文（294 卷）
 ```
 
 ## 事件数据格式 / Event schema
